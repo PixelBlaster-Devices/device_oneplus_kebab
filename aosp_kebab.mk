@@ -27,6 +27,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# PixelBlaster
+BLASTER_BUILD_TYPE=OFFICIAL
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_kebab
 PRODUCT_DEVICE := kebab
